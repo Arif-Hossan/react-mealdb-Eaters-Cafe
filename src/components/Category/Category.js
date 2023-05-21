@@ -7,7 +7,7 @@ const Category = () => {
   const foodsCategory = useLoaderData().categories.slice(0,12);
 //   console.log(foodsCategory);
   return (
-    <div>
+    <div  className="text-center">
       <Container>
         <h2 className="m-3">Category</h2>
         <Row xs={1} md={2} lg={3} className="g-3">

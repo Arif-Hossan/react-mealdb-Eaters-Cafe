@@ -10,7 +10,7 @@ const CategoryFood = () => {
 
   return (
     <div>
-      <Container>
+      <Container  className="text-center">
         <h2 className='m-3'>
           {categoryName}'s total item :{" "}
           {categoryFood ? categoryFood.length : "No item"}
