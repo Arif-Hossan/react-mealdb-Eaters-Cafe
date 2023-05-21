@@ -1,0 +1,12 @@
+.navbars a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    color: darkblue;
+}
+.navbars a:hover{
+    background-color: darkblue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

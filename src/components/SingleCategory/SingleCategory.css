@@ -1,0 +1,7 @@
+.category-btn{
+    background-color: darkblue!important;
+    border: none !important;
+}
+.category-btn:hover{
+    background-color: lightblue!important;
+}
