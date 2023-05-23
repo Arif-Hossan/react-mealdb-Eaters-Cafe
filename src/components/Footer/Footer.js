@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
-/*  const footerRef = useRef(null);
+const footerRef = useRef(null);
   const location = useLocation();
 
   useEffect(() => {
@@ -11,6 +11,7 @@ const Footer = () => {
       const footer = footerRef.current;
       const windowHeight = window.innerHeight;
       const contentHeight = document.body.clientHeight;
+    
 
       if (contentHeight < windowHeight) {
         footer.style.position = "fixed";
@@ -30,10 +31,9 @@ const Footer = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [location]);
- <footer className="bg-light text-dark py-3 text-center" ref={footerRef}>
-*/
+
   return (
-    <footer className="bg-light text-dark py-3 text-center" >
+   <footer className="bg-light text-dark py-3 text-center" ref={footerRef}>
       <Container>
         <Row>
           <Col>
