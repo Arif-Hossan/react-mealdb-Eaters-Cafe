@@ -1,11 +1,13 @@
 .navbars a{
+    display: block;
     text-decoration: none;
+    padding:5px 10px;
     margin-left: 20px;
     font-size: 22px;
-    color: darkblue;
+    color: #8f8e03;
 }
 .navbars a:hover{
-    background-color: darkblue;
+    background-color: #8f8e03;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;

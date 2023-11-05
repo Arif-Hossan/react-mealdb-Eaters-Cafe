@@ -10,7 +10,7 @@ const Category = () => {
     <div  className="text-center">
       <Container>
         <h2 className="m-3">Category</h2>
-        <Row xs={1} md={2} lg={3} className="g-3">
+        <Row xs={1} md={2} lg={4} className="g-2 mb-2">
           {foodsCategory.map((category) => (
             <SingleCategory
               key={category.idCategory}

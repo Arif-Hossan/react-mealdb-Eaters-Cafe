@@ -1,9 +1,9 @@
 import React from "react";
 import { Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "./SingleCategory.css";
 import { useNavigate } from "react-router-dom";
+import CustomButton from "../CustomButton/CustomButton";
 
 const SingleCategory = ({ category }) => {
   const { strCategory, strCategoryThumb, strCategoryDescription } = category;
@@ -14,15 +14,22 @@ const SingleCategory = ({ category }) => {
   return (
     <div>
       <Col>
-        <Card style={{ width: "20rem", marginBottom: "5px" }}>
-          <Card.Img variant="top" src={strCategoryThumb} />
+        <Card style={{ width: "17rem", height: "400px", margin: "auto" }}>
+          <Card.Img variant="center" src={strCategoryThumb} />
           <Card.Body>
-            <Card.Title>{strCategory}</Card.Title>
-            <Card.Text>{strCategoryDescription.slice(0, 100)}</Card.Text>
-            <Button onClick={handleCategory} className="category-btn">
-              Select Food
-            </Button>
+            <div>
+              <Card.Title>{strCategory}</Card.Title>
+              <Card.Text>{strCategoryDescription.slice(0, 80)}</Card.Text>
+            </div>
+            {/* <Button onClick={handleCategory} className="category-btn category-btn-custom d-block mx-auto">
+              Select Food<span></span>
+            </Button> */}
           </Card.Body>
+          <CustomButton
+            className="customBtn"
+            text="Select Food"
+            onClick={handleCategory}
+          ></CustomButton>
         </Card>
       </Col>
     </div>
