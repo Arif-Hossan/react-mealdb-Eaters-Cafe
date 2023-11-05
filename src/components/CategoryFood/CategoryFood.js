@@ -15,7 +15,7 @@ const CategoryFood = () => {
           {categoryName}'s total item :{" "}
           {categoryFood ? categoryFood.length : "No item"}
         </h2>
-        <Row xs={1} md={2} lg={3} xl={4} className="g-2 mb-3">
+        <Row xs={1} md={2} lg={4}className="g-2 mb-3">
           {categoryFood.map((food) => (
             <Food
               key={food.idMeal}

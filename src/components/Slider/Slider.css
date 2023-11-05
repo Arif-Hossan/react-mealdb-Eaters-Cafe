@@ -1,0 +1,33 @@
+/* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .sliderContainerStyles {
+      height: 50vh;
+    }
+  
+    .sliderImageStyles {
+      height: 50vh;
+    }
+  }
+  
+  /* Media query for tablets and small laptops (min-width: 768px and max-width: 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .sliderContainerStyles {
+      height: 75vh;
+    }
+  
+    .sliderImageStyles {
+      height: 75vh;
+    }
+  }
+  
+  /* Media query for medium to large laptops and desktops (min-width: 992px) */
+  @media (min-width: 992px) {
+    .sliderContainerStyles {
+      height: 90vh;
+    }
+  
+    .sliderImageStyles {
+      height: 90vh;
+    }
+  }
+  

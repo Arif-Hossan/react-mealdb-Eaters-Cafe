@@ -12,7 +12,7 @@ const Food = ({ food }) => {
   return (
     <div className="text-center">
       <Col>
-        <Card style={{ width: "17rem", height: "400px", margin: "auto" }}>
+        <Card style={{ width: "17rem", height: "400px", margin: "auto" }} className="shadow">
           <div className="rounded-pill">
             <Card.Img variant="top" src={strMealThumb} />
           </div>

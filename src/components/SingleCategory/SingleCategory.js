@@ -11,10 +11,12 @@ const SingleCategory = ({ category }) => {
   const handleCategory = () => {
     navigate(`/category/${strCategory}`);
   };
+
+  
   return (
     <div>
       <Col>
-        <Card style={{ width: "17rem", height: "400px", margin: "auto" }}>
+        <Card style={{height: "400px", margin: "auto" }} className="shadow">
           <Card.Img variant="center" src={strCategoryThumb} />
           <Card.Body>
             <div>
